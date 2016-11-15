@@ -45,11 +45,12 @@ const circles$ = flydUndo({
   ]
 })
 
-const appendCircle = (circles, clickEvent) =>
-  R.append(
+function appendCircle(circles, clickEvent) {
+  return R.append(
     {radius: 10, cx: clickEvent.clientX, cy: clickEvent.clientY}
   , circles
   )
+}
 
 circles$().current // []
 circles$().backward // []
