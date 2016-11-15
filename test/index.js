@@ -14,6 +14,8 @@ test('it initializes with a default and empty stacks', ()=> {
   , actions: []
   })
   assert.deepEqual(state$().current, {})
+  assert.deepEqual(state$().forward, [])
+  assert.deepEqual(state$().backward, [])
 })
 
 test('sets the current slot and backward stack with an action', ()=> {
