@@ -4,7 +4,7 @@
   "description": "Flyd undo by tracking state histories.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "zuul --local 8888 --ui mocha-qunit -- test"
   },
   "repository": {
     "type": "git",

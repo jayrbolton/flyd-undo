@@ -91,3 +91,9 @@ circles$().current // [{cx: 70, cy: 70, radius: 10}, {cx: 10, cy: 10, radius: 10
 circles$().backward // [[{cx: 10, cy: 10, radius: 10}]]
 circles$().forward // []
 ```
+
+
+### Dev
+
+- Build with `babel index.es6 > index.js`
+- Run tests with `npm run test` or `zuul --local 8888 --ui mocha-qunit -- test`
