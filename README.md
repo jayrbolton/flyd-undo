@@ -22,9 +22,9 @@ flydUndo({
 _Example_
 
 ```js
-import R from 'ramda'
-import 'flyd' from flyd
-import flydUndo from 'flyd-undo'
+const R = require('ramda')
+const flyd = require('flyd')
+const flydUndo  = require('flyd-undo')
 
 // This example is a circle drawer
 // Click the canvas to create a new circle
