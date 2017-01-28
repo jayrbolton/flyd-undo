@@ -94,7 +94,7 @@ circles$().forward // []
 ```
 
 
-### Dev
+## development
 
-- Build with `babel index.es6 > index.js`
-- Run tests with `npm run test` or `zuul --local 8888 --ui mocha-qunit -- test`
+- Build with `npm run build`
+- Run tests with `npm run test`
